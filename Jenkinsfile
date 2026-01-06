@@ -17,7 +17,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 bat '''
-                ./ venv/bin/activate
+                venv\\Scripts\\pytest
                 pytest
                 '''
             }
