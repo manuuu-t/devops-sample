@@ -8,8 +8,8 @@ pipeline {
                 python --version
                 python -m venv venv
                 . venv/bin/activate
-                pip3 install --upgrade pip
-                pip3 install -r requirements.txt
+                "C://Users//manur//AppData//Local//Programs//Python//Python313//Scripts//pip.exe" install --upgrade pip
+                "C://Users//manur//AppData//Local//Programs//Python//Python313//Scripts//pip.exe" install -r requirements.txt
                 '''
             }
         }
